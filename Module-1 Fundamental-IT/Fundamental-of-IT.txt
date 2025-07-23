@@ -1,0 +1,190 @@
+1.	How Does the Internet Work and  what is TCP/IP?
+
+The internet works by connecting millions of computers and devices worldwide through a network of servers, cables, and wireless signals. Data is broken into small packets, sent through routers and switches, and reassembled at the destination. Communication uses standard protocols like TCP/IP, allowing devices to find and talk to each other. Websites and services are hosted on servers, which users access using browsers or apps via unique addresses called IP addresses or domain names.
+
+TCP/IP (Transmission Control Protocol/Internet Protocol) is the fundamental suite of communication protocols used for the internet and most networks.
+
+•	TCP (Transmission Control Protocol):
+o	Ensures reliable, ordered, and error-checked delivery of data between devices.
+o	Breaks data into packets, sends them, and reassembles them at the destination.
+
+•	IP (Internet Protocol):
+o	Handles addressing and routing of packets so they reach the correct destination.
+o	Each device on a network has a unique IP address.
+
+In summary:
+TCP/IP allows computers to communicate over networks by breaking data into packets, sending them to the correct address, and ensuring they arrive safely and in order.
+
+2.	DNS (Domain Name System) and How It Works?
+
+DNS (Domain Name System) is like the phonebook of the internet. It translates human-friendly domain names (like www.example.com) into IP addresses (like 93.184.216.34) that computers use to identify each other.
+
+How DNS Works:
+
+	You type a website address into your browser.
+	Your computer asks a DNS server to find the matching IP address.
+	The DNS server searches its records or asks other DNS servers if it doesn’t know.
+	Once found, the DNS server returns the IP address to your computer.
+	Your browser uses the IP address to connect to the website’s server.
+
+This process happens in milliseconds, making it easy for users to access websites using simple names instead of complex numbers.
+
+3.	What is HTTP and HTTPS?
+
+HTTP (Hypertext Transfer Protocol) is a protocol used for transferring data between a web browser and a web server. It is the foundation of data communication on the World Wide Web, but it does not encrypt the data being transferred.
+
+HTTPS (Hypertext Transfer Protocol Secure) is the secure version of HTTP. It uses encryption (SSL/TLS) to protect the data exchanged between your browser and the server, ensuring privacy and security. Websites using HTTPS have a padlock icon in the address bar and their URLs start with https://.
+
+
+
+4.	Browsers and How They Work?
+
+Browsers are software applications (like Chrome, Firefox, Edge, or Safari) that allow users to access and interact with websites on the internet.
+
+How Browsers Work:
+
+	User Request: You enter a website address (URL) in the browser.
+	DNS Lookup: The browser asks the DNS to find the website’s IP address.
+	Server Connection: The browser connects to the website’s server using HTTP or HTTPS.
+	Download Content: The server sends website files (HTML, CSS, JavaScript, images) to the browser.
+	Rendering: The browser processes and displays the content, turning code into the web page you see.
+	User Interaction: You can click links, fill forms, and interact with the page, and the browser handles these actions.
+
+Browsers also manage cookies, security, and caching to improve your web experience.
+
+
+
+5.	What is a Domain Name?
+
+A domain name is a human-readable address used to identify a website on the internet. It is what you type into your browser’s address bar to visit a site, such as www.google.com or example.org. Domain names make it easy to access websites without needing to remember their numerical IP addresses.
+
+Types of Domains:
+
+•	Top-Level Domain (TLD): The last part of a domain name (e.g., .com, .org, .net).
+•	Country Code TLD (ccTLD): Specific to countries (e.g., .in for India, .uk for United Kingdom).
+•	Generic TLD (gTLD): General use domains (e.g., .com, .info, .biz).
+•	Second-Level Domain: The name directly before the TLD (e.g., example in example.com).
+•	Subdomain: A prefix added to the main domain (e.g., blog.example.com)
+
+
+6.	What is Hosting?
+
+Hosting is a service that provides the storage space and resources needed to make a website accessible on the internet. When you purchase hosting, your website’s files (HTML, images, etc.) are stored on a server. This server is always connected to the internet, so when someone enters your domain name, the server delivers your website to their browser. Common types of hosting include shared, VPS, dedicated, and cloud hosting.
+
+7.	Difference between Web Designer and Web Developer?
+
+•	Web Designer:
+o	Designs website layout and appearance
+o	Focuses on colors, fonts, and graphics
+o	Works on user experience (UX) and user interface (UI)
+o	Uses design tools (e.g., Figma, Photoshop)
+
+•	Web Developer:
+o	Builds and codes the website
+o	Focuses on functionality and performance
+o	Uses programming languages (HTML, CSS, JavaScript, etc.)
+o	Implements features and ensures the site works.
+8.	How a Website Works ?
+
+	User enters a website address (domain name) in the browser.
+	Browser sends a request to a DNS server to get the website’s IP address.
+	Browser connects to the web server using the IP address.
+	Web server receives the request and sends website files (HTML, CSS, images, etc.) back to the browser.
+	Browser processes and displays the website to the user.
+	User can interact with the website (click links, fill forms, etc.), and the browser communicates with the server as needed.
+Types of Websites:
+1. Static Websites:
+	Content does not change unless manually updated.
+	Built with HTML, CSS, and sometimes JavaScript.
+	Fast to load and simple to create.
+	Examples: Portfolio sites, company info pages.
+2. Dynamic Websites:
+	Content can change automatically or based on user interaction.
+	Uses server-side languages (like PHP, Python, or JavaScript frameworks) and databases.
+	More interactive and functional.
+	Examples: Social media sites, e-commerce stores, blogs.
+
+9.	what is server and types of sever?
+A server is a powerful computer or software that provides services, data, or resources to other computers (called clients) over a network. Servers host websites, store files, manage emails, and handle requests from users, making information and services available on the internet or local networks.
+Types of Servers:
+	Web Server: Hosts websites (e.g., Apache, Nginx).
+	Database Server: Stores and manages databases (e.g., MySQL, SQL Server).
+	File Server: Stores and shares files over a network.
+	Mail Server: Manages and delivers emails (e.g., Microsoft Exchange).
+	Application Server: Runs specific applications for users.
+	FTP Server: Transfers files using File Transfer Protocol.
+	Proxy Server: Acts as an intermediary between clients and other servers.
+
+10.	Client and Server Scripting Languages ?
+
+Client Scripting Languages:
+•	Run on the user’s browser (client-side).
+•	Used for interactive features and UI changes.
+•	Example: JavaScript, HTML, CSS.
+Server Scripting Languages:
+•	Run on the web server (server-side).
+•	Used for processing data, database operations, and generating dynamic content.
+•	Example: PHP, Python, Ruby, Node.js, ASP.NET.
+
+11.	Web Standards and W3C Recommendations ?
+
+•	Web Standards are guidelines and specifications for building websites and web applications to ensure compatibility, accessibility, and usability across different browsers and devices.
+•	The W3C (World Wide Web Consortium) is the main international organization that develops these standards.
+•	Examples of standards include HTML, CSS, XML, and accessibility guidelines (WCAG).
+•	Following W3C recommendations ensures websites are future-proof, accessible to people with disabilities, and work consistently for all users.
+
+12.	Responsive Web Designing ?
+
+•	Responsive Web Design is an approach to web development that makes websites look and function well on all devices (desktops, tablets, smartphones).
+•	Uses flexible grids and layouts, scalable images, and CSS media queries to adapt to different screen sizes.
+•	Improves user experience, reduces the need for separate mobile sites, and is favored by search engines.
+•	Example techniques: Fluid grids, flexible images, breakpoints in CSS.
+
+13.	What is Protocol and give all example of Protocol ?
+
+	A protocol is a set of rules that define how data is transmitted and received over a network.
+	Ensures devices can communicate and understand each other.
+
+Here are examples of common protocols used in networking and the internet:
+
+	HTTP (Hypertext Transfer Protocol): Used for transferring web pages.
+	HTTPS (HTTP Secure): Secure version of HTTP, encrypts data.
+	FTP (File Transfer Protocol): Transfers files between computers.
+	SMTP (Simple Mail Transfer Protocol): Sends emails.
+	IMAP (Internet Message Access Protocol): Retrieves emails from a server.
+	POP3 (Post Office Protocol 3): Downloads emails from a server.
+	TCP (Transmission Control Protocol): Ensures reliable data transmission.
+	UDP (User Datagram Protocol): Sends data quickly without reliability checks.
+	IP (Internet Protocol): Routes data packets across networks.
+	DNS (Domain Name System): Translates domain names to IP addresses.
+	SSH (Secure Shell): Securely accesses remote computers.
+	Telnet: Accesses remote computers (not secure).
+	SFTP (SSH File Transfer Protocol): Secure file transfer over SSH.
+	SNMP (Simple Network Management Protocol): Manages network devices.
+	HTTPS (Hypertext Transfer Protocol Secure): Secure web browsing.
+
+These protocols help computers and devices communicate and share information over networks and the internet.
+
+14.	Basics of SEO (Search Engine Optimization) ?
+
+•	SEO is the practice of optimizing websites to rank higher in search engine results, increasing visibility and traffic.
+•	Key aspects:
+o	Keyword Research: Using relevant words and phrases in content.
+o	On-Page SEO: Optimizing titles, meta descriptions, headings, and images.
+o	Technical SEO: Improving site speed, mobile-friendliness, and secure connections (HTTPS).
+o	Off-Page SEO: Building backlinks from other reputable sites.
+o	Content Quality: Providing valuable, original, and updated information.
+________________________________________
+15.	SDLC (Software Development Life Cycle) ?
+
+•	SDLC is a structured process for developing software efficiently and with high quality.
+ Common phases:
+1.	Requirement Analysis: Gathering and defining what the software should do.
+2.	Design: Planning the software architecture and user interface.
+3.	Development: Writing the actual code.
+4.	Testing: Checking for bugs and verifying that requirements are met.
+5.	Deployment: Releasing the software to users.
+6.	Maintenance: Fixing issues and updating the software as needed.
+
+•	SDLC helps manage projects, reduce risks, and ensure successful software delivery.
+________________________________________
